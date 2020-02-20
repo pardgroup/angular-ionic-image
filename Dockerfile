@@ -30,4 +30,4 @@ RUN apt-get update && \
 RUN curl -sL https://deb.nodesource.com/setup_10.x  | bash -
 RUN apt-get -y install nodejs
 RUN npm install -g @angular/cli
-RUN npm install -g ionic
+RUN npm install -g @ionic/cli
